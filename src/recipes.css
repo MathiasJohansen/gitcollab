@@ -22,9 +22,31 @@ main {
 main > article {
     background-color: #f3f3f3;
 }
+.recipe-view{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.recipe-view a{
+    display: inherit;
+}
+
+.recipe-view h2{
+    width: 100%;
+}
+
 .recipe-card {
     max-width: 300px;
     width: 100%;
     border: 1px solid #969595;
     padding: 1rem;
   }
+
+.recipe-text{
+    display: flex;
+    align-items: center;
+}
+
+.clock, .recipe-icon {
+    height: 20px;
+}
